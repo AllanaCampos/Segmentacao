@@ -1,4 +1,4 @@
-# Segmentacao
+# Segmentação
 
 Este projeto descreve a implementação de um classificador linear, na forma da rede neural Perceptron com duas camadas, com o propósito de obter o melhor plano de corte que será utilizado em tarefas de segmentação de imagens digitais. O conjunto de dados utilizado durante os testes foi o Visible Man, que contém imagens de tomografia computadorizada (TC) e ressonância magnética obtidas a partir de um cadáver masculino. A região de interesse é a parte que corresponde ao corpo humano em cada imagem digital e a rede neural é aplicada para separar essa região de interesse do plano de fundo da imagem. 
 Para alcançar os objetivos, deve-se seguir os seguintes passos:
