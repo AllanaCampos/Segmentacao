@@ -103,6 +103,6 @@ Como resultado do algoritmo é obtido um arquivo PLY para cada imagem de entrada
 
 
 Ao completar todos os passos os resultados obtidos utilizando o conjunto de dados Visible Human pode ser encontrado na pasta ````Resultados````.
-
+Na mesma pasta enncontram-se os frames do resultado empilhados utilizando o Meshlab e um vídeo com os mesmo.
 
 
