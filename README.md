@@ -22,7 +22,7 @@ Como resultado do algoritmo é obtida para cada entrada uma imagem contendo apen
 
     2.4. Execute o algoritmo.
 
-Como resultados do algoritmo são apresentados arquivos 3 arquivos para cada imagem de entrada:
+Como resultados do algoritmo são apresentados 3 arquivos para cada imagem de entrada:
 
 - img-amostra01-cent-med-dp.txt: Contém os valores do centróide da imagem, da média das distâncias do centroide para cada pixel e do desvio padrão das distâncias.
 - img-amostra01-distância.txt: Contém as distâncias de cada pixel ao centróide.
