@@ -60,7 +60,7 @@ Como resultado do algoritmo são obtidas duas imagens:
 
     5.1. Utilizando o aplicativo Superelipse selecione as imagens, com os pixeis classificados como positivos, resultantes do PerceptroncRGB;
     
-    5.2. Determine os valores de x0, a, m, y0, b e n em ordem e separados por vírgula, como no exemplo: x0 = 1030, a = 540, m = 2, y0 = 535, b = 480, n = 4. Caso deseje utilizar mais de uma superelipse mantenha os valores de cada uma em uma linha. Caso as elipses mudem para cada imagem utilizada, salve um arquivo txt contendo os valores das elipses para cada imagem utilizando o terceiro botão "Save Equation"; As superelipses utilizadas para cada imagem se encontram na pasta ```Superelipses```, para utilizá-las coloque os arquivos de texto na mesma pasta que o executável.
+    5.2. Determine os valores de x0, a, m, y0, b e n em ordem e separados por vírgula, como no exemplo: x0 = 1030, a = 540, m = 2, y0 = 535, b = 480, n = 4. Caso deseje utilizar mais de uma superelipse mantenha os valores de cada uma em uma linha. Caso as elipses mudem para cada imagem utilizada, salve um arquivo txt contendo os valores das elipses para cada imagem utilizando o terceiro botão "Save Equation"; As superelipses utilizadas para cada imagem se encontram no arquivo ```Parametro-Superelipses.zip```, para utilizá-las coloque os arquivos de texto na mesma pasta que o executável.
     
     5.2. Execute o algoritmo.
 
