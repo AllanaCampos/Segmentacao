@@ -84,4 +84,47 @@ Como resultado do algoritmo é obtido um arquivo PLY para cada imagem de entrada
 Ao completar todos os passos os resultados obtidos utilizando o conjunto de dados [Visible Human](https://www.nlm.nih.gov/databases/download/vhp.html) pode ser encontrado na pasta ````Resultados````.
 Na mesma pasta enncontram-se os frames do resultado empilhados utilizando o Meshlab e um vídeo com os mesmo.
 
+## Opções extras
+
+Para segmentação desenvolveu-se também um perceptron que utiliza da distância dos pixeis ao centroide para classificação, o mesmo pode ser utilizado como complemento do PerceptronRGB. Para utilizá-lo seguem as instruções abaixo:
+
+1. AmostraXYd
+
+    1.1. Utilizando o aplicativo AmostraXYd selecione as imagens desejadas;
+
+    1.2. Informe o valor de k: este valor define os pixeis positivos e negativos durante a amostragem, aqueles cuja distância ao centroide é menor que a distância média somado a k multiplicado pelo desvio padrão das distâncias fazem parte das amostras positivas, os demas fazem parte das amostras negativas;
+    
+    1.3. Determine o tamanho da amostra;
+
+    1.4. Execute o algoritmo.
+
+Como resultado do algoritmo é apresentado um arquivos para cada imagem de entrada:
+
+- imgNome-amostra02-XYd.txt: Contém as amostras das distâncias com suas classificações.
+
+2. PerceptrontXYd
+
+    2.1. Utilizando o aplicativo PerceptrontXYd selecione os arquivos resultantes da AmostraXYd;
+
+    2.2. Determine a quantidade de épocas, o valor mínimo de acurácia e a taxa de aprendizagem;
+    
+    2.3. Execute o algoritmo.
+
+Como resutado do algoritmo é apresentado para cada arquivo de entrada um arquivo de texto:
+
+- imgNome-perceptron02-planoXYd.txt: contém o plano de corte que será utilizado na classificação.
+
+3. PerceptroncXYd
+
+    3.1. Coloque os planos de corte obtidos durante o treinamento na pasta onde se encontra o executável do aplicativo PerceptroncXYd;
+    
+    3.2. Utilizando o aplicativo PerceptroncXYd selecione as mesmas imagens que foram utilizadas durante a amostragem;
+    
+    3.2. Execute o algoritmo.
+
+Como resultado do algoritmo são obtidas duas imagens:
+
+- imgNome-perceptron02-pos.png: contém os pixels que foram classificados como positivos;
+- imgNome-perceptron02-neg.png: contém os pixels que foram classificados como negativos.
+
 
